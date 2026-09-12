@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* shared style  */
+.font-open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.logo h2 {
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.Color-Orange {
+    color: #FD6E0A;
+}
+
+.btn {
+    background-color: #FD6E0A;
+    color: white;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.about-heading {
+    max-width: 827px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.about-heading h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.about-heading p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #757575;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    width: 71%;
+    max-width: 1140px;
+    /* border: 1px solid red; */
+    margin: 0px auto;
+}
+
+/* main style */
+
+header {
+    background-color: #FFF8F3;
+    background: url("../images/developer.png"), url("../images/header_bg.png"), #FFF8F3;
+    background-repeat: no-repeat;
+    background-position: 23px 38px, bottom right;
+    padding-top: 50px;
+}
+
+nav {
+    /* border: 1px solid #E8E2DC; */
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 51px;
+}
+
+nav .menu a {
+    font-size: 20px;
+    color: #474747;
+    text-decoration: none;
+}
+
+#banner {
+    /* border: 1px solid red; */
+    margin: 47px 38px 0px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#banner .banner-content {
+    max-width: 585px;
+}
+
+#banner .banner-content h2 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+#banner .banner-content h1 {
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+#banner .banner-content p {
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+#banner .banner-image img {
+    max-width: 585px;
+    vertical-align: middle;
+}
+
+#about,
+#skills,
+#resume {
+    padding: 130px 0px;
+}
+
+#about .about-content {
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 131px 156px;
+}
+
+#about .about-content .about-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info .info-card p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+}
+
+.about-info .info-card h4 {
+    font-size: 20px;
+}
+
+
+.skills .skills-content .skill-box {
+    display: flex;
+    gap: 24px;
+}
+
+.skill-box {
+    display: flex;
+    gap: 24px;
+    padding-top: 50px;
+    justify-content: center;
+}
+.skill-box .skill-card {
+    padding: 30px;
+    /* border: 1px solid red; */
+    box-shadow: 0px 6px 50px 0 #00000027;
+    max-width: 267px;
+}
+
+.skill-card img {
+    width: 44px;
+    margin-bottom: 30px;
+}
+
+.skill-card h3 {
+    font-size: 20px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.skill-card p {
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+}
+
+#resume .resume-content {
+    width: 71%;
+    max-width: 1140px;
+    margin: 113px auto 0px;
+    display: flex;
+    gap: 24px;
+}
+
+.resume-content hr {
+    margin: 30px 0px;
+}
+
+.resume-content .section-title {
+    color: #474747;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.resume-card {
+    max-width: 511px;
+    margin-right: 47px;
+}
+
+.resume-card .card-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.resume-card .card-info {
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.resume-card .card-text {
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+}
+
+footer {
+    background-color: #FFF8F3;
+    padding: 130px 0px;
+    margin-top: 130px;
+}
+
+footer .footer-content {
+    display: flex;
+    gap: 116px;
+    justify-content: center;
+}
+
+.footer-content h2 {
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.footer-content .social {
+    max-width: 562px;
+}
+
+.footer-content .social p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.footer-content .social-icons a {
+    margin-right: 24px;
+}
+
+.footer-content form input[type="text"],
+.footer-content form textarea {
+    width: 461px;
+    padding: 18px 31px;
+    border-radius: 5px;
+    border: none;
+    color: #757575;
+    margin-bottom: 24px;
+}
